@@ -1,0 +1,5 @@
+---
+# file: roles/common/tasks/ruby.yml
+- name: Install Ruby (rvm)
+  shell: \curl -L https://get.rvm.io | bash -s stable --rails
+
